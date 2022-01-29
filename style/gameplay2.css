@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+body {
+    background-color: #9C835F!important;
+}
+
+#header {
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#header #back {
+    width: 20px;
+    height: 10px;
+    margin-right: 40px;
+}
+
+#header #game-logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+#header b {
+    color: #F9B23D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.player {
+    height: 500px;
+}
+
+.player h4 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.game-choice {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-choice img {
+    width: 100px;
+    height: 80px;
+    justify-content: center;
+}
+
+.game-choice button {
+    background: none;
+    border: none;
+}
+
+.game-choice button:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+.game-choice button:focus {
+    transform: scale(1.1);
+    background: #C4C4C4;
+    border-radius: 30px;
+    margin-top: 8px;
+    width: 170px;
+    height: 130px;
+}
+
+.gameplay h1{
+    margin: auto;
+    position: static;
+    color: #BD0000;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 196px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.rectangle1, .rectangle2, .rectangle3 {
+    transform: rotate(-45deg);
+    margin: auto;
+    position: static;
+    width: 270px;
+    height: 140px;
+}
+
+.rectangle1 {
+    background: #4C9654;
+}
+
+.rectangle2 {
+    background: red;
+}
+
+.rectangle3 {
+    background: #035B0C;
+}
+
+.rectangle1 > h4, .rectangle2 > h4{
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;  
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.rectangle3 > h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    text-justify: inter-word;
+    font-weight: bold;
+    padding-top: 15%;
+    line-height: 52px;
+}
+
+.comp-side {
+    padding-top: 30px;
+}
+
+.active {
+    transform: scale(1.1);
+    background: #C4C4C4;
+    border-radius: 30px;
+    padding-top: 20px!important;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 130px;
+}
+
+#footer img{
+    width: 58px;
+    height: 52px;
+}
+
+@media only screen and (max-width:768px) {
+    
+    #header #game-logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+    
+    #header b {
+        color: #F9B23D;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:491px){
+    #header #back {
+        width: 20px;
+        height: 10px;
+        margin-right: 20px;
+    }
+
+    #header #game-logo {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+    }
+
+    #header b {
+        color: #F9B23D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .gameplay h1{
+        margin: auto;
+        position: static;
+        color: #BD0000;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 196px;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:433px){
+    #header #game-logo {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+    }
+
+    #header b {
+        color: #F9B23D;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .gameplay h1{
+        margin: auto;
+        position: static;
+        color: #BD0000;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 196px;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+
+    .rectangle1, .rectangle2, .rectangle3 {
+        transform: rotate(-45deg);
+        margin: auto;
+        position: static;
+        width: 27px;
+        height: 14px;
+    }
+}

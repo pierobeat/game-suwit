@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style/gameplay2.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Game Suwit!</title>
+</head>
+
+<body>
+    <div class="col-12" id="header">
+        <!-- <a href="index.html" id="back"><img src="assets/mini-symbol.png"></a> -->
+        <img src="assets/game-logo.png" id="game-logo">
+        <b>ROCK PAPER SCISSORS</b>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 player">
+                <h4>PLAYER</h4>
+                <div class="col-12 game-choice choice">
+                    <button class="selection" id="batu" onclick="Removing()">
+                        <img src="assets/batu.png">
+                    </button>
+                </div>
+                <div class="col-12 game-choice choice">
+                    <button class="selection" id="kertas" onclick="Removing()">
+                        <img src="assets/kertas.png">
+                    </button>
+                </div>
+                <div class="col-12 game-choice choice">
+                    <button class="selection" id="gunting" onclick="Removing()">
+                        <img src="assets/gunting.png">
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center gameplay">
+                <h1 id="removing">VS</h1>
+                <div id="resulNotif">
+                </div>
+            </div>
+            <div class="col-4 player">
+                <h4>COMPUTER</h4>
+                <div class="col-12 game-choice comp-side"><a id="rock"><img src="assets/batu.png"></a></div>
+                <div class="col-12 game-choice comp-side paper-sign"><a id="paper"><img src="assets/kertas.png" ></a></div>
+                <div class="col-12 game-choice comp-side scissor-sign"><a id="scissor"><img src="assets/gunting.png" ></a></div>
+            </div>
+            <div class="offset-4 col-4 d-flex justify-content-center" id="footer">
+                <a href="gameplay.html"><img src="assets/refresh.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
